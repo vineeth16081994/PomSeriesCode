@@ -15,6 +15,12 @@ public class Mail
     {
     System.out.println("mail received vineeth");
     }
+     public void getMailcommit()
+     {
+     System.out.println("mail received vineeth");
+     }
+     
+     
 
     
 
