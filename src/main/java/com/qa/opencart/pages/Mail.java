@@ -10,6 +10,11 @@ public class Mail
 
       System.out.println("mail sent vineeth");
       }
+    public void getMail()
+    {
+    System.out.println("mail received vineeth");
+    }
+
 
   }
 
