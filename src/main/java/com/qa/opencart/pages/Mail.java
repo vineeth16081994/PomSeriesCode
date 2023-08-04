@@ -3,12 +3,7 @@ public class Mail
   {
     public void sendMail()
       {
-
-      
-
-  
-
-      System.out.println("mail sent vineeth");
+    System.out.println("mail sent vineeth");
       }
     public void getMail()
     {
