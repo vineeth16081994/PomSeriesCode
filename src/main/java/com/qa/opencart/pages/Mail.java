@@ -11,8 +11,12 @@ public class Mail
     {
     System.out.println("mail received vineeth");
     }
+     public void getMailViaBluetooth()
+    {
+    System.out.println("mail received vineeth");
+    }
 
-    //i am venkat
+    
 
 
   }
