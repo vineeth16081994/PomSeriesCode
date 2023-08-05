@@ -28,7 +28,7 @@ public void getTitle()
 @Test
 public void isLogoutDisplayed()
 {
-	Assert.assertFalse(account.verifyLogoutLink());
+	Assert.assertTrue(account.verifyLogoutLink());
 	
 }
 @Test
