@@ -9,7 +9,7 @@ pipeline {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                     git 'https://github.com/vineeth16081994/PomSeriesCode.git'
-                    sh "mvn clean install -Dsurefire.suiteXmlFiles=src/test/resources/testrunner/testng_sanity.xml"
+                    sh "mvn clean install"
                 }
             }
         }
